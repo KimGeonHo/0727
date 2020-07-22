@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>광주 인공지능 사관학교
+        <img src="./a.jpg" />
+    </h1>
+    <h2>회원 가입</h2>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <form action="./submit.html" method="POST">
+        <label for="user_id">ID:        </label>   <!-- 띄어쓰기 해도 안됨 -->
+        <input id="user_id" name="ID" placeholder="아이디를 입력하세요" type="text" />
+        <br />
+                <label for="user_pw">PW: </label>
+        <input id="user_pw" name = "PW" placeholder="비밀번호를 입력하세요" type="password" />
+        <br />
+        <label for="pwchk" name="pwchk">비밀번호 찾기 질문</label>   <!-- label은 인풋말고 셀렉트에도 된다 -->
+        <select id="pwchk" name="pwchk">
+            <option value="1">---------------------</option>
+            <option value="2">태어난 장소는?</option>
+            <option value="3">키우는 반려동물 이름은?</option>
+            <option value="4">감명깊게 본 영화는?</option>
+        </select>
+        <br />
+        <textarea class="text" name="content" cols="20" rows="3">
+        </textarea>
+        <br />
+        <input value="뒤로" type="submit" name="button" />        <!-- type을 button이 아닌 submit으로 해도 됨!!-->
+        <button name="전송" type="submit">다음</button>
+    </form>
+
+</body>
+</html>
