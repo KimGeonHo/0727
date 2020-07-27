@@ -1,0 +1,31 @@
+.box_con {
+    display:flex;
+    width: 400px;
+    height: 150px;
+    border: solid coral;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.box_con > div{
+    color: white;
+    text-align:center;
+    
+
+    background-color: coral;
+    border:1px coral solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+  
+.box1 {
+    
+  }
+.box2 {
+    
+  }
+.box3 {
+    
+  }

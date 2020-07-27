@@ -1,0 +1,38 @@
+
+
+.box{
+    background-color: coral;
+    border:1px coral solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+  
+.boxc1 {
+    display:flex;
+    width: 600px;
+    height: 150px;
+    
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+.boxc2 {
+    display:flex;
+    width: 600px;
+    height: 150px;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+.boxc3 {
+    display:flex;
+    width: 600px;
+    height: 150px;
+    
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
